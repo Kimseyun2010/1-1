@@ -1,26 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>모전중1-1</title>
-    <link rel="icon" href="mj/ebaaa8eca084eca491ed9599eab59020eab590ed919c2e6a7067.jpg">
-    <link rel="stylesheet" href="style.css">
+    <title>파일 업로드 예제</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar_logo">
-          <a href="">1-1</a>
-        </div>
-        <div class="navbar_menu">
-            <li><a href="2.html">소개</a></li>
-            <li><a href="3.html">1-1반</a></li>
-            <li><a href="5.html">기능보기</a></li>
-        </div>
-        <div class="navbar_link">
-            
-        </div>
-    </nav>
+    <h2>파일 업로드</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
 </body>
 </html>
